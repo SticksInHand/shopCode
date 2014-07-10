@@ -32,7 +32,8 @@
     //插件的dafaults
     $.fn.imgScroll.defaults = {
         style : 'slide',
-        time : 1000
+        time : 1000,
+        method:'click'
     };
     //闭包结束
 })(jQuery);
