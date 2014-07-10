@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.hilight.js"></script>
+</head>
+<body>
+<!--  markup  -->
+<div class="hilight { background: 'red', foreground: 'white' }">
+    Have a nice day!
+</div>
+<div class="hilight { foreground: 'orange' }">
+    Have a nice day!
+</div>
+<div class="hilight { background: 'green' }">
+    Have a nice day!
+</div>
+<script type="text/javascript">
+
+        $('.hilight').hilight({
+            background:'red',
+            foreground:'white'
+        });
+
+</script>
+</body>
+</html>

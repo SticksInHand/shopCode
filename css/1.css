@@ -1,0 +1,11 @@
+/*焦点轮播*/
+.main-scroll .main-inner ul.tab{width: 670px;height: 240px;overflow: hidden;}
+.main-scroll .main-inner ul.tab li{float: left;width: 670px;height: 240px;list-style: none;}
+.main-scroll .main-inner ul.nav{left: 50%;margin-left: -75px;bottom: 10px;}
+.main-scroll .main-inner ul.nav li{float: left;width: 20px;height: 20px;display: block;margin: 5px;}
+.main-scroll .main-inner ul.nav li a{width: 20px;height: 20px;display: block;overflow: hidden;border-radius: 50%;background: #999999;color: #ffffff;text-align: center;line-height: 20px;}
+.main-scroll .main-inner ul.nav li a:hover{text-decoration: none;}
+.main-scroll .main-inner ul.nav li.active a{background: #E4393C;}
+.main-scroll .main-inner{width: 670px;height: 240px;position: relative;}
+.main-scroll .main-inner ul{position: absolute;}
+.main-scroll .main-inner ul.tab{left: 0px;top: 0px;}

@@ -4,9 +4,10 @@
 //创建一个闭包
 (function($){
     //插件定义
-    $.fn.hilight = function(options){
-        debug(this);
-        var opts = $.extend({}, $.fn.hilight.defaults,options);
+    $.fn.imgScroll = function(options){
+        //传入配置
+        var opts = $.extend({}, $.fn.imgScroll.defaults,options);
+        //查找页面中所有定义了轮播的类
         return this.each(function(){
             $this = $(this);
             var o = $.meta ? $.extend({},opts,$this.data()) : opts;
@@ -29,9 +30,9 @@
         return '<strong>'+txt+'</strong>';
     };
     //插件的dafaults
-    $.fn.hilight.defaults = {
-        foreground : 'red',
-        background : 'yellow'
+    $.fn.imgScroll.defaults = {
+        style : 'slide',
+        time : 1000
     };
     //闭包结束
 })(jQuery);
